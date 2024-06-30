@@ -1,0 +1,20 @@
+@Sl_Resturent_API_HostAddress = http://localhost:5036
+
+GET {{Sl_Resturent_API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{Sl_Resturent_API_HostAddress}}/Foods/
+Accept: application/json
+
+###
+POST {{Sl_Resturent_API_HostAddress}}/Foods/
+Content-Type: application/json
+
+{
+    "name": "Hawaii",
+    "isGlutenFree": false
+}
+
+###

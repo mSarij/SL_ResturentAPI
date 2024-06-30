@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Sl_Resturent_API.props" />
+</Project>
